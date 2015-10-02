@@ -337,7 +337,7 @@ checking out the different [life cycle methods](http://facebook.github.io/react/
 
 In an upcoming post, I'll be creating a similar app in [Om](https://github.com/swannodette/om).
 
-<script src="http://fb.me/react-0.8.0.js"></script>
+<script src="https://fb.me/react-0.13.3.min.js"></script>
 <script src="/js/react_intro/build/ex1.js"></script>
 <script src="/js/react_intro/build/ex2.js"></script>
 <script src="/js/react_intro/build/ex3.js"></script>
