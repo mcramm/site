@@ -3,4 +3,4 @@
 	url = https://github.com/nilproductions/hugo-incorporated
 [submodule "public"]
 	path = public
-	url = git@github.com:mcramm/mcramm.github.io.git
+	url = https://github.com/mcramm/mcramm.github.io
