@@ -1,4 +1,4 @@
 +++
-layout = "summary"
+layout = "projects"
 title = ""
 +++
