@@ -14,6 +14,16 @@
             {{ partial "_social.html" . }}
         </section>
 
+        <hr />
+
+        <section class='personal-ad'>
+          <a class='project' href='https://mailfeedapp.com' target='_blank' rel='noopener' >
+            <img src="/images/mailfeed-logo.png" />
+            <h2> Mailfeed </h2>
+            <p> Have the RSS feeds you care delivered directly to your inbox.</p>
+          </a>
+        </section>
+
         {{ with .Site.Params.inc.disqus.shortname }}
         <section>
             {{ partial "_disqus.html" . }}
