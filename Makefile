@@ -1,3 +1,6 @@
+setup:
+	git submodule update --init --recursive
+
 build:
 	cd dev/blog && lein cljsbuild once om-intro
 	cd dev/blog && lein cljsbuild once lein-templates
@@ -9,4 +12,4 @@ serve.drafts:
 serve:
 	hugo --watch server
 
-.PHONY: build serve serve.drafts
+.PHONY: setup build serve serve.drafts
